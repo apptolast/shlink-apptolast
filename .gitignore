@@ -13,3 +13,9 @@ data/infra/matomo
 docs/mercure.html
 .phpunit.result.cache
 docs/swagger/openapi-inlined.json
+
+# Kubernetes manifests (local deployment files - DO NOT commit)
+k8s/
+*.secrets.yaml
+*-secrets.yaml
+01-secrets.yaml
